@@ -30,11 +30,11 @@ TARGET_BOARD_PLATFORM 						:= msm8916
 TARGET_BOARD_PLATFORM_GPU 					:= qcom-adreno306
 TARGET_ARCH 							:= arm
 TARGET_NO_BOOTLOADER 						:= true
-TARGET_CPU_ABI 								:= armeabi-v7a
-TARGET_CPU_ABI2 							:= armeabi
+TARGET_CPU_ABI 							:= armeabi-v7a
+TARGET_CPU_ABI2 						:= armeabi
 TARGET_ARCH_VARIANT 						:= armv7-a-neon
-TARGET_CPU_VARIANT 							:= cortex-a7
-TARGET_CPU_SMP 								:= true
+TARGET_CPU_VARIANT 						:= cortex-a7
+TARGET_CPU_SMP 							:= true
 ARCH_ARM_HAVE_TLS_REGISTER 					:= true
 
 TARGET_BOOTLOADER_BOARD_NAME 					:= cprimeltemtr
